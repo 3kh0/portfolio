@@ -1,0 +1,122 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+a:visited, a {
+  color: #0060df;
+}
+
+main {
+  padding-top: 4rem;
+}
+
+section {
+  padding: 2rem;
+}
+
+.project {
+  background-color: #f2f2f2;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.project a {
+  color: #333;
+  display: block;
+  text-decoration: none;
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.contact-methods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.contact-methods a {
+  color: #333;
+  text-decoration: none;
+  width: calc(33.33% - 0.5rem);
+}
+
+.contact-methods a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .contact-methods a {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.skill h3 {
+  width: 75%;
+}
+
+/* notes from w3schools.com */
+
+.divnotes {
+  margin-bottom: 15px;
+  padding: 6px 12px;
+}
+
+.danger {
+  background-color: #ffdddd;
+  border-left: 6px solid #f44336;
+}
+
+.success {
+  background-color: #ddffdd;
+  border-left: 6px solid #04AA6D;
+}
+
+.info {
+  background-color: #e7f3fe;
+  border-left: 6px solid #2196F3;
+}
+
+
+.warning {
+  background-color: #ffffcc;
+  border-left: 6px solid #ffeb3b;
+}

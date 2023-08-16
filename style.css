@@ -16,7 +16,7 @@ header {
   z-index: 1;
 }
 
-header nav a {
+header nav a, header nav a:visited {
   color: #fff;
   text-decoration: none;
   margin-left: 1rem;
